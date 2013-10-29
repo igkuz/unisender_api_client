@@ -9,4 +9,4 @@ Rake::TestTask.new do |t|
 end
 
 desc "Running tests"
-task defaul: :test
+task default: :test
