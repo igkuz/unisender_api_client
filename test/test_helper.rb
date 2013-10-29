@@ -16,4 +16,5 @@ end
 class TestCase < Minitest::Test
 end
 
+# require all project files
 Dir[ File.join(File.dirname(__FILE__), "../lib/**/*.rb")].each { |file| require file }
